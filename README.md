@@ -5,7 +5,7 @@ This is a docker image for [Roguelike Adventures and Dungeons 2](https://www.cur
 
 ## Supported Architectures
 
-Simply pulling `ghcr.io/manfromdownunder/docker-minecraft-rad2:latest` should retrieve the correct image for your arch, but you can also pull specific arch images via tags.
+Simply pulling `ghcr.io/mrqip/docker-minecraft-rad2:latest` should retrieve the correct image for your arch, but you can also pull specific arch images via tags.
 
 The architectures supported by this image are:
 
@@ -40,7 +40,7 @@ version: '3'
 
 services:
   rad2_server:
-    image: manfromdownunder/docker-minecraft-rad2:latest
+    image: mrqip/docker-minecraft-rad2:latest
     # command: tail -f /dev/null # debug the container
     container_name: minecraft-rad2-server
     ports:
